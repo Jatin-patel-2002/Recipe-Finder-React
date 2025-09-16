@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import SearchBar from "./components/SearchBar.jsx";
-import RecipeList from "./components/RecipeList.jsx";
-import RecipeDetail from "./components/RecipeDetail.jsx";
-import Favorites from "./components/Favorites.jsx";
+import SearchBar from "./Components/SearchBar.jsx";
+import RecipeList from "./Components/RecipeList.jsx";
+import RecipeDetail from "./Components/RecipeDetail.jsx";
+import Favorites from "./Components/Favorites.jsx";
 
 function App() {
   const [search, setSearch] = useState("");
